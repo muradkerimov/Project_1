@@ -1,0 +1,23 @@
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    margin: 10px 35%;
+}
+.city{
+    margin: 20px;
+    background-color: rgba(0, 255, 170, 0.089);
+    font-size: 3em;
+    width: 30%;
+}
+
+.city:nth-child(1), .city:nth-child(2) {
+    color: red;
+}
+
+.city:nth-child(4){
+    color: green;
+}
